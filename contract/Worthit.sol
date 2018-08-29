@@ -2,7 +2,7 @@ pragma solidity^0.4.24;
 import "./Ownable.sol";
 import "./SafeMath.sol";
 
-contract Fairbnb is Ownable{
+contract Worthit is Ownable{
     using SafeMath for uint;
 
     /// @dev user information including name, age, address, introduce and etc.
