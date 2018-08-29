@@ -2,7 +2,7 @@ let worthIt;
 let userAccount;
 
 const startApp = () => {
-    const worthItAddress = '0xd24071b37120e6a2df6e035f69af79e9897a27a5';
+    const worthItAddress = '0xe96d67505a826e996d638c9a650fa51a2cce3c24';
     worthIt = new web3.eth.Contract(worthitABI, worthItAddress);
 
     let checkAccountChange = setInterval(async function() {
@@ -42,9 +42,7 @@ window.addEventListener('load', function() {
         // Mist/MetaMask의 프로바이더 사용
         web3 = new Web3(web3.currentProvider);
         alert('web3가 주입되었습니다.');
-        //console.log(web3.currentProvider);
-        //console.log('Accounts: ' + web3.eth.accounts);
-        //console.log('Coin base: ' + web3.eth.accounts[0]);
+
     } else {
         // 사용자가 Metamask를 설치하지 않은 경우에 대해 처리
         // 사용자들에게 Metamask를 설치하라는 등의 메세지를 보여줄 것
