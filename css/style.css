@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid red;
+    align-content: center;
+}
+
+#logo {
+    padding: 1rem 1rem;
+    border: 2px solid red;
+}
+
+nav li {
+    display: inline-flex;
+    padding: 1rem 2rem;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 4px solid red;
+}
+
+#banner {
+    text-align: center;
+}
+
+#register{
+    text-align: center;
+}

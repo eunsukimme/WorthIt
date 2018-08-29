@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worthit!</title>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+    <script language="javascript" type="text/javascript" src="../src/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../src/handlebars-v4.0.11.js"></script>
+    <script id="user-template" type="text/x-handlebars-template">
+        <h2>name: USER NAME</h2>
+        <h3>age: AGE</h3>
+        <h4>address: ADDRESS</h4>
+        <h4>say: </h4>
+    </script>
+</head>
+<body>
+
+    <!-- header -->
+    <header id="nav-bar">
+        <div id="logo">
+            <h1>Worthit!</h1>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li class="current-menu">Home</li>
+                <li>Shop</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main content -->
+    <div id="main">
+        <div id="banner">
+            <h1>Share your worth</h1>
+            <p>Most powerful and convenient custom order platform in the world. Our vision is making globalization of worth on the blockchain technology.</p>
+        </div>
+        <div id="register">
+            <h2>register new account</h2>
+            <div>
+                <h3>name</h3>
+                <input type="text" placeholder="name" id="input-name">
+                <h3>age</h3>
+                <input type="number" placeholder="age" id="input-number">
+                <h3>address</h3>
+                <input type="text" placeholder="address" id="input-address">
+                <h3>introduce</h3>
+                <input type="text" placeholder="introduce" id="input-introduce">
+                <button id ="button">register</button>
+            </div>
+        </div>
+        <div id="test">
+            <button id="userCountButton">How many users?</button>
+            <p id="userCount"></p>
+        </div>
+        <div id="user-board">
+            <div id="user-card">
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../src/main.js"></script>
+    <script type="text/javascript" src="../src/web3processing.js"></script>
+    <script type="text/javascript" src="../src/worthitABI.js"></script>
+</body>
+</html>
