@@ -2,7 +2,7 @@ let worthIt;
 let userAccount;
 
 const startApp = () => {
-    const worthItAddress = '0xe96d67505a826e996d638c9a650fa51a2cce3c24';
+    const worthItAddress = '0x7d62a0b9ac7a067709c75c4addac15d1344ae795';
     worthIt = new web3.eth.Contract(worthitABI, worthItAddress);
 
     let checkAccountChange = setInterval(async function() {

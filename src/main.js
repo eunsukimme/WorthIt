@@ -5,7 +5,7 @@ $("document").ready( () => {
         let _age = $('#input-number').val();
         let _address = $('#input-address').val();
         let _intro = $('#input-introduce').val();
-
+        addUser(_name, _age, _address, _intro);
 
     });
     $('#userCountButton').on('click', function() {

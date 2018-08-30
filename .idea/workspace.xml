@@ -3,76 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c7d4a15-f95e-458b-8c66-1c9ea7025434" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.idea/dictionaries/frozeman.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/.idea/dictionaries/frozeman.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.idea/web3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/.idea/web3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.npm/package/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.npm/package/npm-shrinkwrap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/.versions" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/.versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/dist/web3-light.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/dist/web3-light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/dist/web3-light.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/dist/web3-light.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/dist/web3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/dist/web3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/dist/web3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/dist/web3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/balance.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/balance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/contract.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/contract_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/contract_array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/event_inc.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/event_inc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/icap.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/icap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/namereg.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/namereg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/example/node-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/example/node-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/solidity/coder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/solidity/coder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/allevents.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/allevents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/contract.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/contract.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/formatters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/formatters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/lib/web3/httpprovider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/lib/web3/httpprovider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/package.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/package.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/src/index_old.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/test.js.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/test1.js.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/Cakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/lib/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/lib/xhr2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/src/000-xml_http_request_event_target.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/src/001-xml_http_request.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/src/errors.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/src/progress_event.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/src/xml_http_request_upload.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/fixtures/hello.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/fixtures/hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/fixtures/xhr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/html/browser_test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/event_target_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/events_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/headers_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/helpers/browser_mocha_runner.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/helpers/browser_mocha_setup.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/helpers/setup.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/helpers/xhr_server.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/nodejs_set_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/redirect_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/response_type_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/responseurl_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/send_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/status_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/test/src/xhr_test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web3processing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web3processing.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -90,22 +22,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="324">
+              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="worthitABI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/worthitABI.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="web3processing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/web3processing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -113,8 +49,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="36">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -162,11 +98,11 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/users.js" />
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/src/worthitABI.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/web3processing.js" />
+        <option value="$PROJECT_DIR$/src/worthitABI.js" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -185,9 +121,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="201" />
+    <option name="x" value="263" />
+    <option name="y" value="1" />
     <option name="width" value="1370" />
-    <option name="height" value="1038" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +153,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,14 +199,15 @@
       <workItem from="1535437155785" duration="4129000" />
       <workItem from="1535502960946" duration="16366000" />
       <workItem from="1535556595333" duration="2983000" />
+      <workItem from="1535627128847" duration="1780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30092000" />
+    <option name="totallyTimeSpent" value="31872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="0" width="1096" height="830" extended-state="0" />
+    <frame x="211" y="1" width="1096" height="831" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1728281" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,6 +235,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/worthitABI.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web3processing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -445,30 +421,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/worthitABI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="324">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contract/Worthit.sol">
+    <entry file="file://$PROJECT_DIR$/contract/SafeMath.sol">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/worthitABI.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/contract/Worthit.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web3processing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
