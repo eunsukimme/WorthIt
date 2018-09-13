@@ -1,22 +1,5 @@
 const worthitABI = [
     {
-        "anonymous": false,
-        "inputs": [
-            {
-                "indexed": true,
-                "name": "previousOwner",
-                "type": "address"
-            },
-            {
-                "indexed": true,
-                "name": "newOwner",
-                "type": "address"
-            }
-        ],
-        "name": "OwnershipTransferred",
-        "type": "event"
-    },
-    {
         "constant": false,
         "inputs": [
             {
@@ -52,6 +35,96 @@ const worthitABI = [
         "type": "function"
     },
     {
+        "constant": false,
+        "inputs": [],
+        "name": "deleteUser",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "getAllUsers",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "name": "userAddr",
+                        "type": "address"
+                    },
+                    {
+                        "components": [
+                            {
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "name": "age",
+                                "type": "uint8"
+                            },
+                            {
+                                "name": "realAddress",
+                                "type": "string"
+                            },
+                            {
+                                "name": "introduce",
+                                "type": "string"
+                            }
+                        ],
+                        "name": "info",
+                        "type": "tuple"
+                    }
+                ],
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "_name",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "name": "_age",
+                "type": "uint8"
+            },
+            {
+                "indexed": false,
+                "name": "_intro",
+                "type": "string"
+            }
+        ],
+        "name": "userAdded",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "previousOwner",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
         "anonymous": false,
         "inputs": [
             {
@@ -85,28 +158,6 @@ const worthitABI = [
         "payable": false,
         "stateMutability": "nonpayable",
         "type": "function"
-    },
-    {
-        "anonymous": false,
-        "inputs": [
-            {
-                "indexed": false,
-                "name": "_name",
-                "type": "string"
-            },
-            {
-                "indexed": false,
-                "name": "_age",
-                "type": "uint8"
-            },
-            {
-                "indexed": false,
-                "name": "_intro",
-                "type": "string"
-            }
-        ],
-        "name": "userAdded",
-        "type": "event"
     },
     {
         "constant": true,
@@ -192,7 +243,7 @@ const worthitABI = [
         "name": "users",
         "outputs": [
             {
-                "name": "uesrAddr",
+                "name": "userAddr",
                 "type": "address"
             },
             {

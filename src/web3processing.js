@@ -2,7 +2,8 @@ let worthIt;
 let userAccount;
 
 const startApp = () => {
-    const worthItAddress = '0x7d62a0b9ac7a067709c75c4addac15d1344ae795';
+    let didUserListUpdated = 0;
+    const worthItAddress = '0x7105211b7fda5120a3d42126d3f8eabc21c951e4';
     worthIt = new web3.eth.Contract(worthitABI, worthItAddress);
 
     let checkAccountChange = setInterval(async function() {
@@ -14,6 +15,10 @@ const startApp = () => {
             alert('Your account is ' + userAccount);
         }
     }, 1000);
+    if(didUserListUpdated == 0){
+        didUserListUpdated = 1;
+        loadUser();
+    }
 };
 
 const getUserCount = () => {
@@ -29,10 +34,44 @@ const addUser = (_name, _age, _address, _introduce) => {
         .send({ from: userAccount })
         .on("receipt", function(receipt) {
             console.log("Successfully registered " + _name + "!");
+            location.reload();
         })
         .on("error", function(error){
             console.log(error);
         });
+};
+
+const loadUser = () => {
+    $('#user-board').empty();
+
+    return worthIt.methods.getAllUsers().call()
+        .then(function(users){
+            users.forEach(function(element){
+                //console.log(element);
+                $('#user-board').append(`<div class=user-card>
+<ul>
+    <li>이름: ${element[1].name}</li>
+    <li>나이: ${element[1].age}</li>
+    <li>주소: ${element[1].realAddress}</li>
+    <li>인사말: ${element[1].introduce}</li>
+</ul>
+</div>`);
+            });
+    });
+
+};
+
+const deleteUser = () => {
+    return worthIt.methods.deleteUser()
+        .send({from: userAccount})
+        .on('receipt', function(receipt){
+            console.log('Your account successfully deleted!');
+            location.reload();
+        })
+        .on('error', function(error){
+            console.log(error);
+        });
+
 };
 
 window.addEventListener('load', function() {

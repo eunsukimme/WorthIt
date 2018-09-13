@@ -1,4 +1,5 @@
 pragma solidity^0.4.24;
+pragma experimental ABIEncoderV2;
 import "./Ownable.sol";
 import "./SafeMath.sol";
 
@@ -14,11 +15,9 @@ contract Worthit is Ownable{
     }
     /// @dev a user 
     struct user{
-        address uesrAddr;
+        address userAddr;
         userInfo info;
     }
-    /// @dev total user count
-    uint public userCount = 0;
 
     /// @dev event that notify new user
     event userAdded(string _name, uint8 _age, string _intro);
@@ -27,6 +26,7 @@ contract Worthit is Ownable{
     mapping(address => user) addressToUser;
 
     user[] public users;
+    uint public userCount = 0;
 
     /// @dev if there are some name exist at a given address, then
     ///      it mean already other user exist. So only User can add
@@ -59,8 +59,8 @@ contract Worthit is Ownable{
         }
         user memory newUser = user(_userAddr, info);
         addressToUser[_userAddr] = newUser;
-        userCount = userCount.add(1);
         users.push(newUser);
+        userCount = userCount.add(1);
         emit userAdded(_name, _age, _intro);
         return true;
     }
@@ -76,5 +76,28 @@ contract Worthit is Ownable{
     }
     function getUserCount() public view returns(uint) {
         return userCount;
+    }
+
+    function getUserIndex() view internal returns(uint) {
+        for(uint i = 0 ; i < users.length ; i++){
+            if(users[i].userAddr == msg.sender){
+                return i;
+            }
+        }
+    }
+
+    function deleteUser() external {
+        uint index = getUserIndex();
+        delete addressToUser[msg.sender];
+        delete users[index];
+        for(uint i = index; i < users.length-1; i++){
+            users[i] = users[i+1];
+        }
+        users.length = users.length.sub(1);
+        userCount = userCount.sub(1);
+    }
+
+    function getAllUsers() public returns(user[]){
+        return users;
     }
 }

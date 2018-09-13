@@ -1,4 +1,7 @@
+
+
 $("document").ready( () => {
+
     $('#register-button').on('click', function() {
 
         let _name = $('#input-name').val();
@@ -12,6 +15,9 @@ $("document").ready( () => {
         getUserCount().then(function(result) {
             $('#userCount').text(`user count: ${result}.`);
         })
+    });
+    $('#userDeleteButton').on('click', function() {
+        deleteUser();
     })
 
 });

@@ -42,3 +42,10 @@ nav li {
 #register{
     text-align: center;
 }
+#user-board {
+    display: flex;
+}
+.user-card {
+    margin: 20px;
+    padding: 10px;
+}
